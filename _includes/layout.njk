@@ -1,7 +1,12 @@
-<!doctype html>
+{% extends "../node_modules/govuk-frontend/govuk/template.njk" %}
 
-<html lang="en" class="">
-
+<html lang="en" class="govuk-template">
+  <script>
+    nunjucks.configure([
+      "node_modules/govuk-frontend/",
+      "YOUR-VIEWS-FOLDER"
+    ])
+  </script>
   {% set themeColor = "blue" %}
   {% set bodyClasses = "no-js" %}
   {% set serviceName = "Docs As Code - Nunjucks"%}
