@@ -1,6 +1,14 @@
 {
   "dependencies": {
     "govuk-frontend": "^3.14.0",
-    "nunjucks": "^3.2.3"
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^5.0.0",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.44.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build && npx @11ty/eleventy --output=_site"
   }
 }
