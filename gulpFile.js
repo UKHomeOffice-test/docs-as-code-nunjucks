@@ -20,7 +20,8 @@ const minifyjs = () => {
         .pipe(gulp.dest('_includes/'));
 }
 const copyAssets = () => {
-    return gulp.src([        
+    return gulp.src([
+        '_includes/all-min.js',   
         'node_modules/govuk-frontend/govuk/assets/*/*'
     ])
         .pipe(gulp.dest('assets/'))
