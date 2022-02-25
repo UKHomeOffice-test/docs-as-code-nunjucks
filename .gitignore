@@ -109,3 +109,6 @@ dist
 
 # Site directory
 _site/
+
+# DS_Store
+**/.DS_Store
