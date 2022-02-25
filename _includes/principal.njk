@@ -1,8 +1,11 @@
 ---
 layout: layout.njk
 ---
-<div>
-    <h1>{{ title }}</h1>
-    <img src="/assets{{icon}}" title="{{title}}" alt="{{icon_description}}">
-    {{content | safe}}
-</div>
+{% from "../node_modules/govuk-frontend/govuk/components/back-link/macro.njk" import govukBackLink %}
+{{ govukBackLink({
+  text: "Back",
+  href: "../"
+}) }}
+<h1>{{ title }}</h1>
+<img src="{{ ('/assets' + icon) | url}}" title="{{title}}" alt="{{icon_description}}">
+{{content | safe}}
