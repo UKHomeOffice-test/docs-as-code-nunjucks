@@ -1,6 +1,6 @@
 # Documentation
 
-## What are we doing
+## What are we doing?
 
 As part of the UK Home Office CTO innovation day, a team of engineers decided to run a workshop for ***docs as code***.  
 
