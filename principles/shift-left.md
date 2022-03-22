@@ -1,9 +1,9 @@
 ---
-tags: principal
+tags: principle
 title: Shift Left
-icon: /images/principals/shift-left.png
+icon: /images/principles/shift-left.png
 icon_description: An arrow pointing left in a circle
-layout: principal.njk
+layout: principle.njk
 ---
 Improve quality, security and reliability by moving tasks to the left as early in the lifecycle as possible.
 
