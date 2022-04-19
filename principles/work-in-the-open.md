@@ -1,9 +1,9 @@
 ---
-tags: principal
+tags: principle
 title: Work in the Open
-icon: /images/principals/work-in-the-open.png
+icon: /images/principles/work-in-the-open.png
 icon_description: Multiple stick people standing in two rows
-layout: principal.njk
+layout: principle.njk
 ---
 Work in the open, providing maximum access and transparency at all times.
 
