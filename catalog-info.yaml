@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "docs-as-code-nunjucks"
+  description: "Import existing docs as code repo test."
+  annotations:
+    github.com/project-slug: UKHomeOffice-test/docs-as-code-nunjucks
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "team-a"

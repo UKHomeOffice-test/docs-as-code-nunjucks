@@ -1,0 +1,8 @@
+site_name: "docs-as-code-nunjucks"
+site_description: "Import existing docs as code repo test."
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
